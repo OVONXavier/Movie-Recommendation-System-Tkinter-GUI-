@@ -17,12 +17,12 @@ A user-friendly movie recommendation system built with Python and **Tkinter**, e
 
 ## Getting Started
 
-### Prerequisites
+## Prerequisites
 
 - Python 3.x
 - Tkinter (usually bundled with Python)
 
-### Installation
+## Installation
 
 Clone the repository:
 
@@ -37,7 +37,7 @@ Install dependencies (if any):
 pip install -r requirements.txt
 ```
 
-### Run the App
+## Run the App
 
 ```bash
 python movie_gui_app.py
@@ -57,13 +57,13 @@ The application uses a simple hash map (dictionary) to store movie titles and ra
 └── data/
     └── movies.json              # Optional: save/load persistent movie data
 
-## Security & Persistence
+Security & Persistence
 
 This version runs locally and does not require any online access. You may optionally enhance it by:
 - Saving movie data using JSON or SQLite.
 - Adding login/authentication for user-specific recommendations.
 
-## Future Improvements
+Future Improvements
 
 - Integrate with TMDb or IMDb API for real-time data.
 - Improve recommendation logic using collaborative filtering.
